@@ -1,0 +1,81 @@
+# ===================== Keil MDK 构建产物 =====================
+Objects/
+Listings/
+DebugConfig/
+miniweather/MDK-ARM/miniweather/
+bootloader/MDK-ARM/*/
+*.axf
+*.hex
+*.sct
+*.dep
+*.crf
+*.d
+*.o
+*.map
+*.lnp
+*.iex
+*.htm
+*.build_log.htm
+*.uvguix*
+*.uvoptx
+*.uvprojx.bak*
+JLinkSettings.ini
+keil_build.log
+
+# ===================== Qt 上位机 =====================
+host/build/
+host/bin/
+Makefile*
+*.pro.user
+moc_*.cpp
+moc_*.h
+moc_predefs.h
+qrc_*.cpp
+ui_*.h
+*.obj
+*.ilk
+*.pdb
+
+# ===================== 固件产物 =====================
+# .bin / .hex 挂 GitHub Release，不进仓库
+*.bin
+
+# ===================== 备份与临时 =====================
+.bak_*/
+.bak_2026*/
+_*.txt
+_*.bin
+
+# ===================== 厂商例程与学习资料（非本项目源码）=====================
+参考资料/
+课件/
+esp8266/
+SGP30资料2019/
+SHTC3资料/
+2.4寸触摸屏SPI单排14p/
+C4-6-2D/
+
+# ===================== 系统文件 =====================
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ===================== 工作笔记（含个人信息，不入库）=====================
+.workbuddy/
+
+# 构建日志
+build_app.log
+*.log
+
+# ===================== 本地文档（学习讲义/求职材料，保留在本地不入库）=====================
+# 仓库只保留 README.md 与 bug记录与避坑清单.md
+/*.md
+!/README.md
+!/bug记录与避坑清单.md
+/*.docx
+/*.pdf
+/*.png
+/*.jpg
+/*.svg
+/*.html
+output/

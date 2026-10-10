@@ -1,0 +1,11 @@
+{
+  "_说明": "★ 别把 api_key 写在这里（会随工程一起被提交/分享出去）。推荐设环境变量：Windows PowerShell 用 $env:OPENAI_API_KEY='sk-xxx'，CMD 用 set OPENAI_API_KEY=sk-xxx；优先级是【环境变量 > 本文件 > 空】。留空则自动降级到规则引擎（不影响功能）。base_url/model 按你用的厂商改。",
+
+  "api_key": "",
+
+  "base_url": "https://api.deepseek.com/v1",
+  "model": "deepseek-chat",
+
+  "port": "COM6",
+  "baud": 115200
+}
